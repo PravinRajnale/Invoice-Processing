@@ -163,9 +163,8 @@ export default function DuplicateCompare() {
                   </span>
                 </div>
                 <div className="bg-ink-950 p-2 max-h-[520px] overflow-auto">
-                  <img
-                    src={`/api/v1/invoices/${panel.invoiceId}/page/1.png?dpi=140&token=${
-                      encodeURIComponent(session.token || '')}`}
+                <img
+                    src={api.pageUrl(panel.invoiceId, 1, 140)}
                     alt={`${panel.title} page 1`}
                     className="w-full rounded"
                   />
