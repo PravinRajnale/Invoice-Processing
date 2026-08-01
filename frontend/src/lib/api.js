@@ -92,6 +92,8 @@ export const api = {
   runRules: (id, runId) => request(`/invoices/${id}/runs/${runId}/rules`),
   duplicates: (id) => request(`/invoices/${id}/duplicates`),
   documentUrl: (id) => `${BASE}/invoices/${id}/document?token=${encodeURIComponent(session.token || '')}`,
+    pageUrl: (id, page = 1, dpi = 170) =>
+    `${BASE}/invoices/${id}/page/${page}.png?dpi=${dpi}&token=${encodeURIComponent(session.token || '')}`,
   ledger: (poNumber) => request(`/pos/${encodeURIComponent(poNumber)}/ledger`),
   dashboard: () => request('/dashboard/summary'),
   procurement: () => request('/masters/procurement'),
