@@ -14,7 +14,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from 'lucide-react';
 import { CONFIDENCE_TIER, confidenceTier, fieldLabel } from '../lib/format';
-import { session } from '../lib/api';
+import { api } from '../lib/api';
 
 export default function DocumentViewer({
   invoiceId, pageCount = 1, fields = [], activeField, onFieldHover, onFieldClick,
