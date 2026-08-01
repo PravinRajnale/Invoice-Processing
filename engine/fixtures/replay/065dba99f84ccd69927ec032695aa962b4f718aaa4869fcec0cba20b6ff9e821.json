@@ -1,0 +1,221 @@
+{
+  "document_type": "INVOICE",
+  "document_type_confidence": 0.98,
+  "header": {
+    "invoice_number": {
+      "value": "INV-2024-0871",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "INV-2024-0871"
+    },
+    "invoice_date": {
+      "value": "12/06/2026",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "12/06/2026"
+    },
+    "due_date": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "po_number": {
+      "value": "PO-5510",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "PO-5510"
+    },
+    "vendor_name": {
+      "value": "Kesarwani Traders",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "Kesarwani Traders"
+    },
+    "vendor_tax_id": {
+      "value": "09AAGCK7788L1ZP",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "09AAGCK7788L1ZP"
+    },
+    "currency": {
+      "value": "\u20b9",
+      "confidence": 0.94,
+      "page": 1,
+      "source_text": "\u20b9"
+    },
+    "subtotal": {
+      "value": "2,90,584.75",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "2,90,584.75"
+    },
+    "tax_amount": {
+      "value": "52,305.25",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "52,305.25"
+    },
+    "discount_amount": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "other_charges": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "grand_total": {
+      "value": "3,42,890.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "3,42,890.00"
+    },
+    "payment_terms": {
+      "value": "Net 30",
+      "confidence": 0.9,
+      "page": 1,
+      "source_text": "Net 30"
+    }
+  },
+  "lines": [
+    {
+      "line_no": 1,
+      "sku": {
+        "value": "SKU-3301",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SKU-3301"
+      },
+      "description": {
+        "value": "Corrugated box 5-ply 18x12x10 inch",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Corrugated box 5-ply 18x12x10 inch"
+      },
+      "quantity": {
+        "value": "4200",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "4200"
+      },
+      "uom": {
+        "value": "EA",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "EA"
+      },
+      "unit_price": {
+        "value": "42.50",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "42.50"
+      },
+      "line_total": {
+        "value": "1,78,500.00",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "1,78,500.00"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    },
+    {
+      "line_no": 2,
+      "sku": {
+        "value": "SKU-3302",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SKU-3302"
+      },
+      "description": {
+        "value": "Stretch wrap film 500mm x 23 micron",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Stretch wrap film 500mm x 23 micron"
+      },
+      "quantity": {
+        "value": "800",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "800"
+      },
+      "uom": {
+        "value": "ROLL",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "ROLL"
+      },
+      "unit_price": {
+        "value": "131.00",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "131.00"
+      },
+      "line_total": {
+        "value": "1,04,800.00",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "1,04,800.00"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    },
+    {
+      "line_no": 3,
+      "sku": {
+        "value": "SVC-FRT",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SVC-FRT"
+      },
+      "description": {
+        "value": "Freight - Lucknow to Pune",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Freight - Lucknow to Pune"
+      },
+      "quantity": {
+        "value": "1",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "1"
+      },
+      "uom": {
+        "value": "LOT",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "LOT"
+      },
+      "unit_price": {
+        "value": "7,284.75",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "7,284.75"
+      },
+      "line_total": {
+        "value": "7,284.75",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "7,284.75"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    }
+  ]
+}

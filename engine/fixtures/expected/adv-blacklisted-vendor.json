@@ -1,0 +1,12 @@
+{
+  "decision": "REJECT",
+  "risk_band": "SEVERE",
+  "rules": {
+    "VEN-02": "FAIL",
+    "VEN-03": "FAIL"
+  },
+  "note": "Blacklisted vendor. VEN-03 is a blocker and forces REJECT regardless of how well-formed the document is.",
+  "name": "adv-blacklisted-vendor",
+  "sha256": "cc3ef8028ea60d1d5e5450cab095bdcc642044b4892e39b53e06dab43f58b6c8",
+  "pdf": "pdf/adv-blacklisted-vendor.pdf"
+}

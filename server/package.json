@@ -1,0 +1,23 @@
+{
+  "name": "invoice-platform-bff",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API / BFF for the invoice processing platform. Auth, RBAC, SSE relay; no money arithmetic.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "document_type": "INVOICE",
+  "document_type_confidence": 0.98,
+  "header": {
+    "invoice_number": {
+      "value": "CSPL/26/0663",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "CSPL/26/0663"
+    },
+    "invoice_date": {
+      "value": "16/07/2026",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "16/07/2026"
+    },
+    "due_date": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "po_number": {
+      "value": "PO-4402",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "PO-4402"
+    },
+    "vendor_name": {
+      "value": "Cobalt Systems Pvt Ltd",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "Cobalt Systems Pvt Ltd"
+    },
+    "vendor_tax_id": {
+      "value": "36AADCC1122T1ZY",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "36AADCC1122T1ZY"
+    },
+    "currency": {
+      "value": "\u20b9",
+      "confidence": 0.94,
+      "page": 1,
+      "source_text": "\u20b9"
+    },
+    "subtotal": {
+      "value": "77,966.10",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "77,966.10"
+    },
+    "tax_amount": {
+      "value": "14,033.90",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "14,033.90"
+    },
+    "discount_amount": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "other_charges": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "grand_total": {
+      "value": "92,000.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "92,000.00"
+    },
+    "payment_terms": {
+      "value": "Net 30",
+      "confidence": 0.9,
+      "page": 1,
+      "source_text": "Net 30"
+    }
+  },
+  "lines": [
+    {
+      "line_no": 1,
+      "sku": {
+        "value": "SKU-5501",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SKU-5501"
+      },
+      "description": {
+        "value": "Network switch 24-port managed gigabit",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Network switch 24-port managed gigabit"
+      },
+      "quantity": {
+        "value": "20",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "20"
+      },
+      "uom": {
+        "value": "EA",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "EA"
+      },
+      "unit_price": {
+        "value": "3,500.00",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "3,500.00"
+      },
+      "line_total": {
+        "value": "70,000.00",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "70,000.00"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    },
+    {
+      "line_no": 2,
+      "sku": {
+        "value": "SVC-INST",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SVC-INST"
+      },
+      "description": {
+        "value": "Installation and configuration services",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Installation and configuration services"
+      },
+      "quantity": {
+        "value": "1",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "1"
+      },
+      "uom": {
+        "value": "LOT",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "LOT"
+      },
+      "unit_price": {
+        "value": "7,966.10",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "7,966.10"
+      },
+      "line_total": {
+        "value": "7,966.10",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "7,966.10"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    }
+  ]
+}

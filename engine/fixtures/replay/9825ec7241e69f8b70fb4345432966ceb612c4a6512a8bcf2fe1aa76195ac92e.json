@@ -1,0 +1,221 @@
+{
+  "document_type": "INVOICE",
+  "document_type_confidence": 0.98,
+  "header": {
+    "invoice_number": {
+      "value": "NOS/26-27/0412",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "NOS/26-27/0412"
+    },
+    "invoice_date": {
+      "value": "12/07/2026",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "12/07/2026"
+    },
+    "due_date": {
+      "value": "27/07/2026",
+      "confidence": 0.9,
+      "page": 1,
+      "source_text": "27/07/2026"
+    },
+    "po_number": {
+      "value": "PO-7723",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "PO-7723"
+    },
+    "vendor_name": {
+      "value": "Nimbus Office Solutions",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "Nimbus Office Solutions"
+    },
+    "vendor_tax_id": {
+      "value": "07AAEFN9012M1ZQ",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "07AAEFN9012M1ZQ"
+    },
+    "currency": {
+      "value": "\u20b9",
+      "confidence": 0.94,
+      "page": 1,
+      "source_text": "\u20b9"
+    },
+    "subtotal": {
+      "value": "38,135.59",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "38,135.59"
+    },
+    "tax_amount": {
+      "value": "6,864.41",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "6,864.41"
+    },
+    "discount_amount": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "other_charges": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "grand_total": {
+      "value": "45,000.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "45,000.00"
+    },
+    "payment_terms": {
+      "value": "Net 15",
+      "confidence": 0.9,
+      "page": 1,
+      "source_text": "Net 15"
+    }
+  },
+  "lines": [
+    {
+      "line_no": 1,
+      "sku": {
+        "value": "SKU-1101",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SKU-1101"
+      },
+      "description": {
+        "value": "A4 Copier Paper 75gsm (500 sheet ream)",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "A4 Copier Paper 75gsm (500 sheet ream)"
+      },
+      "quantity": {
+        "value": "300",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "300"
+      },
+      "uom": {
+        "value": "REAM",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "REAM"
+      },
+      "unit_price": {
+        "value": "112.00",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "112.00"
+      },
+      "line_total": {
+        "value": "33,600.00",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "33,600.00"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    },
+    {
+      "line_no": 2,
+      "sku": {
+        "value": "SKU-1102",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SKU-1102"
+      },
+      "description": {
+        "value": "Whiteboard marker, assorted (pack of 10)",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Whiteboard marker, assorted (pack of 10)"
+      },
+      "quantity": {
+        "value": "110",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "110"
+      },
+      "uom": {
+        "value": "PACK",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "PACK"
+      },
+      "unit_price": {
+        "value": "38.00",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "38.00"
+      },
+      "line_total": {
+        "value": "4,180.00",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "4,180.00"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    },
+    {
+      "line_no": 3,
+      "sku": {
+        "value": "SVC-DEL",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SVC-DEL"
+      },
+      "description": {
+        "value": "Delivery charges",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Delivery charges"
+      },
+      "quantity": {
+        "value": "1",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "1"
+      },
+      "uom": {
+        "value": "LOT",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "LOT"
+      },
+      "unit_price": {
+        "value": "355.59",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "355.59"
+      },
+      "line_total": {
+        "value": "355.59",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "355.59"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    }
+  ]
+}

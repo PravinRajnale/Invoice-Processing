@@ -1,0 +1,13 @@
+{
+  "decision": "APPROVE_PENDING_AUTHORISATION",
+  "risk_band": "LOW",
+  "rules": {
+    "PO-07": "PASS",
+    "FIN-01": "PASS",
+    "POL-03": "PASS"
+  },
+  "note": "First of three against PO-2291. Consumes ~42% of the PO. Above the 50,000 auto-approve ceiling so it routes for authorisation rather than approving unattended.",
+  "name": "ec1-a-sharma-8801",
+  "sha256": "0a731bd30b0ea373e90668374e7c0775892c5ad7a7a531b319960ede137dcd26",
+  "pdf": "pdf/ec1-a-sharma-8801.pdf"
+}

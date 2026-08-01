@@ -1,0 +1,12 @@
+{
+  "decision": "REJECT",
+  "risk_band": "SEVERE",
+  "rules": {
+    "ING-02": "FAIL",
+    "FIN-04": "FAIL"
+  },
+  "note": "A delivery note submitted for payment. ING-02 classifies it out before any financial reasoning is attempted.",
+  "name": "adv-not-an-invoice",
+  "sha256": "c9abef9bfac012569d7deeea81c57a1944fd0c49eeaeef22b0dc8346e9bcb0a0",
+  "pdf": "pdf/adv-not-an-invoice.pdf"
+}

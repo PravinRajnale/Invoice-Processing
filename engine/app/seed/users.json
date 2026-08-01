@@ -1,0 +1,47 @@
+[
+  {
+    "id": "u-priya",
+    "username": "priya",
+    "display_name": "Priya Raghavan",
+    "role": "AP_PROCESSOR",
+    "email": "priya@example-corp.in",
+    "approval_limit": "50000.00",
+    "_persona": "AP Processor — clears the queue, corrects extraction, raises overrides"
+  },
+  {
+    "id": "u-rahul",
+    "username": "rahul",
+    "display_name": "Rahul Menon",
+    "role": "AP_MANAGER",
+    "email": "rahul@example-corp.in",
+    "approval_limit": "500000.00",
+    "_persona": "AP Manager — authorises above-ceiling items, acts as second approver"
+  },
+  {
+    "id": "u-meera",
+    "username": "meera",
+    "display_name": "Meera Iyer",
+    "role": "CONTROLLER",
+    "email": "meera@example-corp.in",
+    "approval_limit": "100000000.00",
+    "_persona": "Finance Controller — owns thresholds, unlimited approval"
+  },
+  {
+    "id": "u-sanjay",
+    "username": "sanjay",
+    "display_name": "Sanjay Deshpande",
+    "role": "AUDITOR",
+    "email": "sanjay@example-corp.in",
+    "approval_limit": "0.00",
+    "_persona": "Internal Auditor — read-only, reconstructs historical decisions"
+  },
+  {
+    "id": "u-admin",
+    "username": "admin",
+    "display_name": "System Administrator",
+    "role": "ADMIN",
+    "email": "admin@example-corp.in",
+    "approval_limit": "0.00",
+    "_persona": "Manages master data, users, DoA matrix"
+  }
+]

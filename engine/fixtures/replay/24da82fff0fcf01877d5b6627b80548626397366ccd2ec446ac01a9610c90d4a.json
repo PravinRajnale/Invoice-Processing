@@ -1,0 +1,176 @@
+{
+  "document_type": "INVOICE",
+  "document_type_confidence": 0.98,
+  "header": {
+    "invoice_number": {
+      "value": "INV-A/8903",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "INV-A/8903"
+    },
+    "invoice_date": {
+      "value": "02/07/2026",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "02/07/2026"
+    },
+    "due_date": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "po_number": {
+      "value": "PO-2291",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "PO-2291"
+    },
+    "vendor_name": {
+      "value": "Sharma Industrial Supplies",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "Sharma Industrial Supplies"
+    },
+    "vendor_tax_id": {
+      "value": "27AABCS1429B1ZX",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "27AABCS1429B1ZX"
+    },
+    "currency": {
+      "value": "\u20b9",
+      "confidence": 0.94,
+      "page": 1,
+      "source_text": "\u20b9"
+    },
+    "subtotal": {
+      "value": "2,03,355.93",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "2,03,355.93"
+    },
+    "tax_amount": {
+      "value": "36,604.07",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "36,604.07"
+    },
+    "discount_amount": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "other_charges": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "grand_total": {
+      "value": "2,39,960.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "2,39,960.00"
+    },
+    "payment_terms": {
+      "value": "Net 45",
+      "confidence": 0.9,
+      "page": 1,
+      "source_text": "Net 45"
+    }
+  },
+  "lines": [
+    {
+      "line_no": 1,
+      "sku": {
+        "value": "SKU-8803",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SKU-8803"
+      },
+      "description": {
+        "value": "Welding Electrode 3.15mm (5kg box)",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Welding Electrode 3.15mm (5kg box)"
+      },
+      "quantity": {
+        "value": "125",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "125"
+      },
+      "uom": {
+        "value": "BOX",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "BOX"
+      },
+      "unit_price": {
+        "value": "496.00",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "496.00"
+      },
+      "line_total": {
+        "value": "62,000.00",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "62,000.00"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    },
+    {
+      "line_no": 2,
+      "sku": {
+        "value": "SVC-FRT",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SVC-FRT"
+      },
+      "description": {
+        "value": "Freight and handling - ex works Bhosari",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Freight and handling - ex works Bhosari"
+      },
+      "quantity": {
+        "value": "1",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "1"
+      },
+      "uom": {
+        "value": "LOT",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "LOT"
+      },
+      "unit_price": {
+        "value": "1,41,355.93",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "1,41,355.93"
+      },
+      "line_total": {
+        "value": "1,41,355.93",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "1,41,355.93"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    }
+  ]
+}

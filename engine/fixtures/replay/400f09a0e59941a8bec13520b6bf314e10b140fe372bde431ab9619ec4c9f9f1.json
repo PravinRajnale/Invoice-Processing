@@ -1,0 +1,131 @@
+{
+  "document_type": "DELIVERY_NOTE",
+  "document_type_confidence": 0.93,
+  "header": {
+    "invoice_number": {
+      "value": "DN-4471",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "DN-4471"
+    },
+    "invoice_date": {
+      "value": "20/06/2026",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "20/06/2026"
+    },
+    "due_date": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "po_number": {
+      "value": "PO-2291",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "PO-2291"
+    },
+    "vendor_name": {
+      "value": "Sharma Industrial Supplies",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "Sharma Industrial Supplies"
+    },
+    "vendor_tax_id": {
+      "value": "27AABCS1429B1ZX",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "27AABCS1429B1ZX"
+    },
+    "currency": {
+      "value": "\u20b9",
+      "confidence": 0.94,
+      "page": 1,
+      "source_text": "\u20b9"
+    },
+    "subtotal": {
+      "value": "0.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "0.00"
+    },
+    "tax_amount": {
+      "value": "0.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "0.00"
+    },
+    "discount_amount": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "other_charges": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "grand_total": {
+      "value": "0.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "0.00"
+    },
+    "payment_terms": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    }
+  },
+  "lines": [
+    {
+      "line_no": 1,
+      "sku": {
+        "value": "SKU-8801",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SKU-8801"
+      },
+      "description": {
+        "value": "MS Angle 50x50x6mm - delivery note only",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "MS Angle 50x50x6mm - delivery note only"
+      },
+      "quantity": {
+        "value": "500",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "500"
+      },
+      "uom": {
+        "value": "EA",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "EA"
+      },
+      "unit_price": {
+        "value": "0.00",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "0.00"
+      },
+      "line_total": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "0.00"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    }
+  ]
+}

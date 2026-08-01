@@ -1,0 +1,13 @@
+{
+  "decision": "APPROVE_PENDING_AUTHORISATION",
+  "risk_band": "LOW",
+  "rules": {
+    "DUP-01": "PASS",
+    "DUP-02": "PASS",
+    "DUP-03": "PASS"
+  },
+  "note": "The original. Must be processed first for the duplicate case to mean anything.",
+  "name": "ec3-a-kesarwani-original",
+  "sha256": "065dba99f84ccd69927ec032695aa962b4f718aaa4869fcec0cba20b6ff9e821",
+  "pdf": "pdf/ec3-a-kesarwani-original.pdf"
+}

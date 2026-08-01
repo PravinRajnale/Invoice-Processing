@@ -1,0 +1,23 @@
+{
+  "decision": "MANUAL_REVIEW",
+  "risk_band": "HIGH",
+  "rules": {
+    "PO-07": "FAIL",
+    "LIN-02": "FAIL",
+    "FIN-01": "PASS",
+    "FIN-02": "PASS",
+    "FIN-03": "PASS",
+    "FIN-05": "PASS",
+    "LIN-03": "PASS",
+    "LIN-04": "PASS",
+    "LIN-06": "PASS",
+    "DUP-01": "PASS",
+    "VEN-01": "PASS",
+    "PO-01": "PASS",
+    "PO-02": "PASS"
+  },
+  "note": "THE EDGE CASE. Every STATELESS check passes \u2014 valid number, correct arithmetic, right vendor, open PO, and every line priced at exactly the contracted rate. The invoice is wrong only relative to what has already been invoiced. The two rules that catch it, PO-07 (cumulative value) and LIN-02 (cumulative quantity), are the only two that consult the consumption ledger. A system that validates each document in isolation approves this and the company overpays.",
+  "name": "ec1-c-sharma-8903",
+  "sha256": "977cc1979725f3142c61b92c9575d99dea422d141b2539a87b3ec8d3042ec07f",
+  "pdf": "pdf/ec1-c-sharma-8903.pdf"
+}

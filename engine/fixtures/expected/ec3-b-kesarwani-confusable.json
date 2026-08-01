@@ -1,0 +1,16 @@
+{
+  "decision": "DUPLICATE_BLOCK",
+  "risk_band": "HIGH",
+  "rules": {
+    "ING-03": "PASS",
+    "DUP-01": "PASS",
+    "DUP-02": "FAIL",
+    "DUP-03": "FAIL",
+    "PO-07": "NOT_APPLICABLE",
+    "LIN-02": "NOT_APPLICABLE"
+  },
+  "note": "THE EDGE CASE. ING-03 passes because the bytes differ. DUP-01 passes because the strings differ. Only the normalised comparison (O to 0) catches it, and DUP-03 corroborates independently on vendor + amount + date. Held, never auto-rejected: the FIRST invoice may have been the error.",
+  "name": "ec3-b-kesarwani-confusable",
+  "sha256": "755f400467aadb5625cf92b8ca2e9f431e4cab84de3e5ba7313a087fb0819d7a",
+  "pdf": "pdf/ec3-b-kesarwani-confusable.pdf"
+}

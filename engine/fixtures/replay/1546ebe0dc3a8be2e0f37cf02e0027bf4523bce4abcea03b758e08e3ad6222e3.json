@@ -1,0 +1,176 @@
+{
+  "document_type": "INVOICE",
+  "document_type_confidence": 0.98,
+  "header": {
+    "invoice_number": {
+      "value": "VC/26/2244",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "VC/26/2244"
+    },
+    "invoice_date": {
+      "value": "28/06/2026",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "28/06/2026"
+    },
+    "due_date": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "po_number": {
+      "value": "PO-3417",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "PO-3417"
+    },
+    "vendor_name": {
+      "value": "Vertex Components Pvt Ltd",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "Vertex Components Pvt Ltd"
+    },
+    "vendor_tax_id": {
+      "value": "29AACCV2233K1Z5",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "29AACCV2233K1Z5"
+    },
+    "currency": {
+      "value": "\u20b9",
+      "confidence": 0.94,
+      "page": 1,
+      "source_text": "\u20b9"
+    },
+    "subtotal": {
+      "value": "4,84,200.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "4,84,200.00"
+    },
+    "tax_amount": {
+      "value": "0.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "0.00"
+    },
+    "discount_amount": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "other_charges": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "grand_total": {
+      "value": "4,84,200.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "4,84,200.00"
+    },
+    "payment_terms": {
+      "value": "Net 30",
+      "confidence": 0.9,
+      "page": 1,
+      "source_text": "Net 30"
+    }
+  },
+  "lines": [
+    {
+      "line_no": 1,
+      "sku": {
+        "value": "SKU-4471",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SKU-4471"
+      },
+      "description": {
+        "value": "Bearing assembly, deep groove, 6205-2RS",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Bearing assembly, deep groove, 6205-2RS"
+      },
+      "quantity": {
+        "value": "200",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "200"
+      },
+      "uom": {
+        "value": "EA",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "EA"
+      },
+      "unit_price": {
+        "value": "1,566.00",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "1,566.00"
+      },
+      "line_total": {
+        "value": "3,13,200.00",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "3,13,200.00"
+      },
+      "tax_rate_pct": {
+        "value": "0",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "0"
+      }
+    },
+    {
+      "line_no": 2,
+      "sku": {
+        "value": "SKU-2210",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SKU-2210"
+      },
+      "description": {
+        "value": "Mounting bracket, MS powder-coated, 120x80",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Mounting bracket, MS powder-coated, 120x80"
+      },
+      "quantity": {
+        "value": "500",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "500"
+      },
+      "uom": {
+        "value": "EA",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "EA"
+      },
+      "unit_price": {
+        "value": "342.00",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "342.00"
+      },
+      "line_total": {
+        "value": "1,71,000.00",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "1,71,000.00"
+      },
+      "tax_rate_pct": {
+        "value": "0",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "0"
+      }
+    }
+  ]
+}

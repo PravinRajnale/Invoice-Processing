@@ -1,0 +1,15 @@
+{
+  "decision": "AUTO_APPROVE",
+  "risk_band": "LOW",
+  "rules": {
+    "FIN-05": "PASS",
+    "PO-07": "PASS",
+    "LIN-03": "PASS",
+    "POL-03": "PASS",
+    "DUP-01": "PASS"
+  },
+  "note": "Clean digital invoice below the auto-approve ceiling.",
+  "name": "happy-path-nimbus",
+  "sha256": "435c77a95f1c044f39b17206276801d263d523c9f7e7446e64e9df72c28cf12b",
+  "pdf": "pdf/happy-path-nimbus.pdf"
+}

@@ -1,0 +1,26 @@
+[
+  { "id": "POL-2291-1", "po_id": "PO-2291", "line_no": 1, "sku": "SKU-8801", "description": "MS Angle 50x50x6mm - IS 2062 Grade A", "quantity_ordered": "1200", "uom": "EA", "unit_price": "385.00", "line_total": "462000.00", "tax_rate_pct": "18", "hsn_sac_code": "7216" },
+  { "id": "POL-2291-2", "po_id": "PO-2291", "line_no": 2, "sku": "SKU-8802", "description": "GI Pipe 40mm Class-B (6m length)", "quantity_ordered": "800", "uom": "EA", "unit_price": "297.00", "line_total": "237600.00", "tax_rate_pct": "18", "hsn_sac_code": "7306" },
+  { "id": "POL-2291-3", "po_id": "PO-2291", "line_no": 3, "sku": "SKU-8803", "description": "Welding Electrode 3.15mm (5kg box)", "quantity_ordered": "250", "uom": "BOX", "unit_price": "496.00", "line_total": "124000.00", "tax_rate_pct": "18", "hsn_sac_code": "8311" },
+  { "id": "POL-2291-4", "po_id": "PO-2291", "line_no": 4, "sku": "SVC-FRT", "description": "Freight and handling - ex works Bhosari", "quantity_ordered": "1", "uom": "LOT", "unit_price": "23857.63", "line_total": "23857.63", "tax_rate_pct": "18", "hsn_sac_code": "9965" },
+
+  { "id": "POL-3417-1", "po_id": "PO-3417", "line_no": 1, "sku": "SKU-4471", "description": "Bearing assembly, deep groove, 6205-2RS", "quantity_ordered": "200", "uom": "EA", "unit_price": "1450.00", "line_total": "290000.00", "tax_rate_pct": "0", "hsn_sac_code": "8482" },
+  { "id": "POL-3417-2", "po_id": "PO-3417", "line_no": 2, "sku": "SKU-2210", "description": "Mounting bracket, MS powder-coated, 120x80", "quantity_ordered": "500", "uom": "EA", "unit_price": "390.00", "line_total": "195000.00", "tax_rate_pct": "0", "hsn_sac_code": "7326" },
+
+  { "id": "POL-5510-1", "po_id": "PO-5510", "line_no": 1, "sku": "SKU-3301", "description": "Corrugated box 5-ply 18x12x10 inch", "quantity_ordered": "4200", "uom": "EA", "unit_price": "42.50", "line_total": "178500.00", "tax_rate_pct": "18", "hsn_sac_code": "4819" },
+  { "id": "POL-5510-2", "po_id": "PO-5510", "line_no": 2, "sku": "SKU-3302", "description": "Stretch wrap film 500mm x 23 micron", "quantity_ordered": "800", "uom": "ROLL", "unit_price": "131.00", "line_total": "104800.00", "tax_rate_pct": "18", "hsn_sac_code": "3920" },
+  { "id": "POL-5510-3", "po_id": "PO-5510", "line_no": 3, "sku": "SVC-FRT", "description": "Freight - Lucknow to Pune", "quantity_ordered": "1", "uom": "LOT", "unit_price": "7284.75", "line_total": "7284.75", "tax_rate_pct": "18", "hsn_sac_code": "9965" },
+
+  { "id": "POL-6604-1", "po_id": "PO-6604", "line_no": 1, "sku": "SVC-FRT-01", "description": "Freight forwarding services - Mumbai to Pune, June 2026", "quantity_ordered": "1", "uom": "LOT", "unit_price": "156356.00", "line_total": "156356.00", "tax_rate_pct": "18", "hsn_sac_code": "9965" },
+
+  { "id": "POL-7723-1", "po_id": "PO-7723", "line_no": 1, "sku": "SKU-1101", "description": "A4 Copier Paper 75gsm (500 sheet ream)", "quantity_ordered": "300", "uom": "REAM", "unit_price": "112.00", "line_total": "33600.00", "tax_rate_pct": "18", "hsn_sac_code": "4802" },
+  { "id": "POL-7723-2", "po_id": "PO-7723", "line_no": 2, "sku": "SKU-1102", "description": "Whiteboard marker, assorted (pack of 10)", "quantity_ordered": "110", "uom": "PACK", "unit_price": "38.00", "line_total": "4180.00", "tax_rate_pct": "18", "hsn_sac_code": "9608" },
+  { "id": "POL-7723-3", "po_id": "PO-7723", "line_no": 3, "sku": "SVC-DEL", "description": "Delivery charges", "quantity_ordered": "1", "uom": "LOT", "unit_price": "355.59", "line_total": "355.59", "tax_rate_pct": "18", "hsn_sac_code": "9965" },
+
+  { "id": "POL-9001-1", "po_id": "PO-9001", "line_no": 1, "sku": "SKU-1201", "description": "Ergonomic office chair, mesh back", "quantity_ordered": "20", "uom": "EA", "unit_price": "5084.746", "line_total": "101694.92", "tax_rate_pct": "18", "hsn_sac_code": "9401" },
+
+  { "id": "POL-8890-1", "po_id": "PO-8890", "line_no": 1, "sku": "SKU-6601", "description": "Carbide insert CNMG 120408, grade P25", "quantity_ordered": "400", "uom": "EA", "unit_price": "158.898", "line_total": "63559.32", "tax_rate_pct": "18", "hsn_sac_code": "8209" },
+
+  { "id": "POL-4402-1", "po_id": "PO-4402", "line_no": 1, "sku": "SKU-5501", "description": "Network switch 24-port managed gigabit", "quantity_ordered": "20", "uom": "EA", "unit_price": "3500.00", "line_total": "70000.00", "tax_rate_pct": "18", "hsn_sac_code": "8517" },
+  { "id": "POL-4402-2", "po_id": "PO-4402", "line_no": 2, "sku": "SVC-INST", "description": "Installation and configuration services", "quantity_ordered": "1", "uom": "LOT", "unit_price": "7966.10", "line_total": "7966.10", "tax_rate_pct": "18", "hsn_sac_code": "9983" }
+]

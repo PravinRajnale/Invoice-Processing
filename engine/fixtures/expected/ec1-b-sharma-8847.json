@@ -1,0 +1,11 @@
+{
+  "decision": "APPROVE_PENDING_AUTHORISATION",
+  "risk_band": "LOW",
+  "rules": {
+    "PO-07": "PASS"
+  },
+  "note": "Cumulative reaches ~81% of PO-2291. Headroom remains.",
+  "name": "ec1-b-sharma-8847",
+  "sha256": "65495fca199972d578dbe5e5b29b2dcaa34d6565a5f1d21e2e779351d18dfb21",
+  "pdf": "pdf/ec1-b-sharma-8847.pdf"
+}

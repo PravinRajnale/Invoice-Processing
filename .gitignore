@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets. .env holds the real key; .env.example is the committed blank template.
+.env
+.env.*
+!.env.example
+
+data/
+storage/
+.DS_Store

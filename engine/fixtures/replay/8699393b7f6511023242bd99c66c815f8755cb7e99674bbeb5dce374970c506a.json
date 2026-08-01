@@ -1,0 +1,131 @@
+{
+  "document_type": "INVOICE",
+  "document_type_confidence": 0.98,
+  "header": {
+    "invoice_number": {
+      "value": "ZT/2026/0031",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "ZT/2026/0031"
+    },
+    "invoice_date": {
+      "value": "10/07/2026",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "10/07/2026"
+    },
+    "due_date": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "po_number": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "vendor_name": {
+      "value": "Zenith Traders",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "Zenith Traders"
+    },
+    "vendor_tax_id": {
+      "value": "19AAJCZ8899S1ZW",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "19AAJCZ8899S1ZW"
+    },
+    "currency": {
+      "value": "\u20b9",
+      "confidence": 0.94,
+      "page": 1,
+      "source_text": "\u20b9"
+    },
+    "subtotal": {
+      "value": "1,27,118.64",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "1,27,118.64"
+    },
+    "tax_amount": {
+      "value": "22,881.36",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "22,881.36"
+    },
+    "discount_amount": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "other_charges": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "grand_total": {
+      "value": "1,50,000.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "1,50,000.00"
+    },
+    "payment_terms": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    }
+  },
+  "lines": [
+    {
+      "line_no": 1,
+      "sku": {
+        "value": null,
+        "confidence": 0.0,
+        "page": 1,
+        "source_text": null
+      },
+      "description": {
+        "value": "Assorted industrial consumables",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "Assorted industrial consumables"
+      },
+      "quantity": {
+        "value": "1",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "1"
+      },
+      "uom": {
+        "value": "LOT",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "LOT"
+      },
+      "unit_price": {
+        "value": "1,27,118.64",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "1,27,118.64"
+      },
+      "line_total": {
+        "value": "1,27,118.64",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "1,27,118.64"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    }
+  ]
+}

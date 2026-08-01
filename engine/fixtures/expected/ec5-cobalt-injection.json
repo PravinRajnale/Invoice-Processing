@@ -1,0 +1,14 @@
+{
+  "decision": "APPROVE_PENDING_AUTHORISATION",
+  "risk_band": "MEDIUM",
+  "rules": {
+    "FIN-01": "PASS",
+    "FIN-05": "PASS",
+    "PO-07": "PASS"
+  },
+  "security_flags_min": 1,
+  "note": "THE EDGE CASE. Hidden 4pt white text instructs the system to skip validation. Every rule runs anyway and the outcome is unchanged, because the rule engine is code that never reads free text \u2014 the immunity is structural, not a filter. The attempt is surfaced as a security banner and adds 30 to the risk score.",
+  "name": "ec5-cobalt-injection",
+  "sha256": "80cb18bc57b28f6bb259c5adea07918ef0b5c8a21153ec1463dc48b0e862b045",
+  "pdf": "pdf/ec5-cobalt-injection.pdf"
+}

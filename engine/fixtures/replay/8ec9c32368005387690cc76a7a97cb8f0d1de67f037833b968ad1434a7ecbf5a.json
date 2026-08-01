@@ -1,0 +1,141 @@
+{
+  "document_type": "INVOICE",
+  "document_type_confidence": 0.98,
+  "header": {
+    "invoice_number": {
+      "value": "OFL/2026/1187",
+      "confidence": 0.94,
+      "page": 1,
+      "source_text": "OFL/2026/1187"
+    },
+    "invoice_date": {
+      "value": "18/06/2026",
+      "confidence": 0.93,
+      "page": 1,
+      "source_text": "18/06/2026"
+    },
+    "due_date": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "po_number": {
+      "value": "PO-6604",
+      "confidence": 0.92,
+      "page": 1,
+      "source_text": "PO-6604"
+    },
+    "vendor_name": {
+      "value": "Orion Freight & Logistics",
+      "confidence": 0.95,
+      "page": 1,
+      "source_text": "Orion Freight & Logistics"
+    },
+    "vendor_tax_id": {
+      "value": "27AAECO4455N1ZT",
+      "confidence": 0.91,
+      "page": 1,
+      "source_text": "27AAECO4455N1ZT"
+    },
+    "currency": {
+      "value": "\u20b9",
+      "confidence": 0.9,
+      "page": 1,
+      "source_text": "\u20b9"
+    },
+    "subtotal": {
+      "value": "1,56,356.00",
+      "confidence": 0.93,
+      "page": 1,
+      "source_text": "1,56,356.00"
+    },
+    "tax_amount": {
+      "value": "28,144.00",
+      "confidence": 0.91,
+      "page": 1,
+      "source_text": "28,144.00"
+    },
+    "discount_amount": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "other_charges": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "grand_total": {
+      "value": "1,84,500.00",
+      "confidence": 0.58,
+      "page": 1,
+      "source_text": "1,84,500.00",
+      "candidates": [
+        {
+          "value": "1,84,500.00",
+          "confidence": 0.58
+        },
+        {
+          "value": "1,64,500.00",
+          "confidence": 0.31
+        }
+      ]
+    },
+    "payment_terms": {
+      "value": "Net 30",
+      "confidence": 0.9,
+      "page": 1,
+      "source_text": "Net 30"
+    }
+  },
+  "lines": [
+    {
+      "line_no": 1,
+      "sku": {
+        "value": "SVC-FRT-01",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SVC-FRT-01"
+      },
+      "description": {
+        "value": "Freight forwarding - Mumbai to Pune, June 2026",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "Freight forwarding - Mumbai to Pune, June 2026"
+      },
+      "quantity": {
+        "value": "1",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "1"
+      },
+      "uom": {
+        "value": "LOT",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "LOT"
+      },
+      "unit_price": {
+        "value": "1,56,356.00",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "1,56,356.00"
+      },
+      "line_total": {
+        "value": "1,56,356.00",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "1,56,356.00"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    }
+  ]
+}

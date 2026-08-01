@@ -1,0 +1,90 @@
+[
+  {
+    "name": "happy-path-nimbus",
+    "sha256": "435c77a95f1c044f39b17206276801d263d523c9f7e7446e64e9df72c28cf12b",
+    "pdf": "pdf/happy-path-nimbus.pdf",
+    "expected_decision": "AUTO_APPROVE",
+    "scanned": false,
+    "note": "Clean digital invoice below the auto-approve ceiling."
+  },
+  {
+    "name": "ec1-a-sharma-8801",
+    "sha256": "0a731bd30b0ea373e90668374e7c0775892c5ad7a7a531b319960ede137dcd26",
+    "pdf": "pdf/ec1-a-sharma-8801.pdf",
+    "expected_decision": "APPROVE_PENDING_AUTHORISATION",
+    "scanned": false,
+    "note": "First of three against PO-2291. Consumes ~42% of the PO. Above the 50,000 auto-approve ceiling so it routes for authorisation rather than approving unattended."
+  },
+  {
+    "name": "ec1-b-sharma-8847",
+    "sha256": "65495fca199972d578dbe5e5b29b2dcaa34d6565a5f1d21e2e779351d18dfb21",
+    "pdf": "pdf/ec1-b-sharma-8847.pdf",
+    "expected_decision": "APPROVE_PENDING_AUTHORISATION",
+    "scanned": false,
+    "note": "Cumulative reaches ~81% of PO-2291. Headroom remains."
+  },
+  {
+    "name": "ec1-c-sharma-8903",
+    "sha256": "977cc1979725f3142c61b92c9575d99dea422d141b2539a87b3ec8d3042ec07f",
+    "pdf": "pdf/ec1-c-sharma-8903.pdf",
+    "expected_decision": "MANUAL_REVIEW",
+    "scanned": false,
+    "note": "THE EDGE CASE. Every STATELESS check passes \u2014 valid number, correct arithmetic, right vendor, open PO, and every line priced at exactly the contracted rate. The invoice is wrong only relative to what has already been invoiced. The two rules that catch it, PO-07 (cumulative value) and LIN-02 (cumulative quantity), are the only two that consult the consumption ledger. A system that validates each document in isolation approves this and the company overpays."
+  },
+  {
+    "name": "ec2-orion-scanned",
+    "sha256": "3fafc1253d9f5b2ce40a72d49c7c05c20d92509d8a2c0500152ff71c8bcc1afb",
+    "pdf": "pdf/ec2-orion-scanned.pdf",
+    "expected_decision": "NEEDS_INFO",
+    "scanned": true,
+    "note": "THE EDGE CASE. The grand total reads at 0.58 against a 0.80 floor. Rules that depend on it report CANNOT_EVALUATE, NOT FAIL \u2014 the invoice is not wrong, we simply cannot read it. Every independent check still runs and reports normally. The reviewer confirms one field, not thirty."
+  },
+  {
+    "name": "ec3-a-kesarwani-original",
+    "sha256": "065dba99f84ccd69927ec032695aa962b4f718aaa4869fcec0cba20b6ff9e821",
+    "pdf": "pdf/ec3-a-kesarwani-original.pdf",
+    "expected_decision": "APPROVE_PENDING_AUTHORISATION",
+    "scanned": false,
+    "note": "The original. Must be processed first for the duplicate case to mean anything."
+  },
+  {
+    "name": "ec3-b-kesarwani-confusable",
+    "sha256": "755f400467aadb5625cf92b8ca2e9f431e4cab84de3e5ba7313a087fb0819d7a",
+    "pdf": "pdf/ec3-b-kesarwani-confusable.pdf",
+    "expected_decision": "DUPLICATE_BLOCK",
+    "scanned": true,
+    "note": "THE EDGE CASE. ING-03 passes because the bytes differ. DUP-01 passes because the strings differ. Only the normalised comparison (O to 0) catches it, and DUP-03 corroborates independently on vendor + amount + date. Held, never auto-rejected: the FIRST invoice may have been the error."
+  },
+  {
+    "name": "ec4-vertex-offsetting",
+    "sha256": "1546ebe0dc3a8be2e0f37cf02e0027bf4523bce4abcea03b758e08e3ad6222e3",
+    "pdf": "pdf/ec4-vertex-offsetting.pdf",
+    "expected_decision": "MANUAL_REVIEW",
+    "scanned": false,
+    "note": "THE EDGE CASE. Header total is 800 UNDER the PO \u2014 0.16% variance, comfortably inside the 2% tolerance, so FIN-05 passes correctly. But line 1 is 8% over the contracted unit price, masked by line 2 being 12.3% under. A header-only matcher approves this. A header pass must never suppress a line failure."
+  },
+  {
+    "name": "ec5-cobalt-injection",
+    "sha256": "80cb18bc57b28f6bb259c5adea07918ef0b5c8a21153ec1463dc48b0e862b045",
+    "pdf": "pdf/ec5-cobalt-injection.pdf",
+    "expected_decision": "APPROVE_PENDING_AUTHORISATION",
+    "scanned": false,
+    "note": "THE EDGE CASE. Hidden 4pt white text instructs the system to skip validation. Every rule runs anyway and the outcome is unchanged, because the rule engine is code that never reads free text \u2014 the immunity is structural, not a filter. The attempt is surfaced as a security banner and adds 30 to the risk score."
+  },
+  {
+    "name": "adv-not-an-invoice",
+    "sha256": "c9abef9bfac012569d7deeea81c57a1944fd0c49eeaeef22b0dc8346e9bcb0a0",
+    "pdf": "pdf/adv-not-an-invoice.pdf",
+    "expected_decision": "REJECT",
+    "scanned": false,
+    "note": "A delivery note submitted for payment. ING-02 classifies it out before any financial reasoning is attempted."
+  },
+  {
+    "name": "adv-blacklisted-vendor",
+    "sha256": "cc3ef8028ea60d1d5e5450cab095bdcc642044b4892e39b53e06dab43f58b6c8",
+    "pdf": "pdf/adv-blacklisted-vendor.pdf",
+    "expected_decision": "REJECT",
+    "scanned": false,
+    "note": "Blacklisted vendor. VEN-03 is a blocker and forces REJECT regardless of how well-formed the document is."
+  }
+]

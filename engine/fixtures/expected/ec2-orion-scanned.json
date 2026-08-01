@@ -1,0 +1,21 @@
+{
+  "decision": "NEEDS_INFO",
+  "risk_band": "MEDIUM",
+  "rules": {
+    "EXT-11": "CANNOT_EVALUATE",
+    "EXT-07": "CANNOT_EVALUATE",
+    "FIN-01": "CANNOT_EVALUATE",
+    "FIN-05": "CANNOT_EVALUATE",
+    "PO-07": "CANNOT_EVALUATE",
+    "POL-01": "CANNOT_EVALUATE",
+    "VEN-01": "PASS",
+    "PO-01": "PASS",
+    "PO-02": "PASS",
+    "EXT-01": "PASS",
+    "EXT-02": "PASS"
+  },
+  "note": "THE EDGE CASE. The grand total reads at 0.58 against a 0.80 floor. Rules that depend on it report CANNOT_EVALUATE, NOT FAIL \u2014 the invoice is not wrong, we simply cannot read it. Every independent check still runs and reports normally. The reviewer confirms one field, not thirty.",
+  "name": "ec2-orion-scanned",
+  "sha256": "3fafc1253d9f5b2ce40a72d49c7c05c20d92509d8a2c0500152ff71c8bcc1afb",
+  "pdf": "pdf/ec2-orion-scanned.pdf"
+}

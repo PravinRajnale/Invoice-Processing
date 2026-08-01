@@ -1,0 +1,186 @@
+{
+  "document_type": "INVOICE",
+  "document_type_confidence": 1.0,
+  "header": {
+    "invoice_number": {
+      "value": "8873632",
+      "confidence": 1.0,
+      "page": 1,
+      "source_text": "INVOICE: 8873632"
+    },
+    "invoice_date": {
+      "value": "10/01/2021",
+      "confidence": 1.0,
+      "page": 1,
+      "source_text": "DATE: 10/01/2021"
+    },
+    "due_date": {
+      "value": "11/01/2021",
+      "confidence": 1.0,
+      "page": 1,
+      "source_text": "DUE DATE\nFrank\n35\nFree Ground\n11/01/2021"
+    },
+    "po_number": {
+      "value": "35",
+      "confidence": 1.0,
+      "page": 1,
+      "source_text": "P.O. NUMBER\nREQUISITIONER\nSHIPPED VIA\nF.O.B. POINT\nDUE DATE\nFrank\n35\nFree Ground\n11/01/2021"
+    },
+    "vendor_name": {
+      "value": "Healthcare Freight and Supply",
+      "confidence": 1.0,
+      "page": 1,
+      "source_text": "Healthcare Freight and Supply"
+    },
+    "vendor_tax_id": null,
+    "currency": {
+      "value": "USD",
+      "confidence": 0.8,
+      "page": 1,
+      "source_text": null
+    },
+    "subtotal": {
+      "value": "1075.00",
+      "confidence": 1.0,
+      "page": 1,
+      "source_text": "SUBTOTAL\n1075.00"
+    },
+    "tax_amount": {
+      "value": "86.00",
+      "confidence": 1.0,
+      "page": 1,
+      "source_text": "SALES TAX\n86.00"
+    },
+    "discount_amount": {
+      "value": "0.00",
+      "confidence": 1.0,
+      "page": 1,
+      "source_text": "SHIPPING & HANDLING\n0.00"
+    },
+    "other_charges": {
+      "value": "0.00",
+      "confidence": 1.0,
+      "page": 1,
+      "source_text": "SHIPPING & HANDLING\n0.00"
+    },
+    "grand_total": {
+      "value": "1161.00",
+      "confidence": 1.0,
+      "page": 1,
+      "source_text": "TOTAL DUE\n1161.00"
+    },
+    "payment_terms": {
+      "value": "Make all checks payable to Healthcare Freight and Supply.",
+      "confidence": 1.0,
+      "page": 1,
+      "source_text": "Make all checks payable to Healthcare Freight and Supply."
+    }
+  },
+  "lines": [
+    {
+      "line_no": 1,
+      "sku": null,
+      "description": {
+        "value": "Safety Glasses - Clear",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "Safety Glasses - Clear"
+      },
+      "quantity": {
+        "value": "50",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "50"
+      },
+      "uom": {
+        "value": "EA",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "EA"
+      },
+      "unit_price": {
+        "value": "7.00",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "7.00"
+      },
+      "line_total": {
+        "value": "350.00",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "350.00"
+      },
+      "tax_rate_pct": null
+    },
+    {
+      "line_no": 2,
+      "sku": null,
+      "description": {
+        "value": "Rubber Gloves - Large",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "Rubber Gloves - Large"
+      },
+      "quantity": {
+        "value": "25",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "25"
+      },
+      "uom": {
+        "value": "EA",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "EA"
+      },
+      "unit_price": {
+        "value": "9.00",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "9.00"
+      },
+      "line_total": {
+        "value": "225.00",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "225.00"
+      },
+      "tax_rate_pct": null
+    },
+    {
+      "line_no": 3,
+      "sku": null,
+      "description": {
+        "value": "Potassium Iodide Pillows",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "Potassium Iodide Pillows"
+      },
+      "quantity": {
+        "value": "1",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "1"
+      },
+      "uom": {
+        "value": "CS",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "CS"
+      },
+      "unit_price": {
+        "value": "500.00",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "500.00"
+      },
+      "line_total": {
+        "value": "500.00",
+        "confidence": 1.0,
+        "page": 1,
+        "source_text": "500.00"
+      },
+      "tax_rate_pct": null
+    }
+  ]
+}

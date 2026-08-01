@@ -1,0 +1,176 @@
+{
+  "document_type": "INVOICE",
+  "document_type_confidence": 0.98,
+  "header": {
+    "invoice_number": {
+      "value": "INV-A/8801",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "INV-A/8801"
+    },
+    "invoice_date": {
+      "value": "04/06/2026",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "04/06/2026"
+    },
+    "due_date": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "po_number": {
+      "value": "PO-2291",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "PO-2291"
+    },
+    "vendor_name": {
+      "value": "Sharma Industrial Supplies",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "Sharma Industrial Supplies"
+    },
+    "vendor_tax_id": {
+      "value": "27AABCS1429B1ZX",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "27AABCS1429B1ZX"
+    },
+    "currency": {
+      "value": "\u20b9",
+      "confidence": 0.94,
+      "page": 1,
+      "source_text": "\u20b9"
+    },
+    "subtotal": {
+      "value": "3,56,741.00",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "3,56,741.00"
+    },
+    "tax_amount": {
+      "value": "64,213.38",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "64,213.38"
+    },
+    "discount_amount": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "other_charges": {
+      "value": null,
+      "confidence": 0.0,
+      "page": 1,
+      "source_text": null
+    },
+    "grand_total": {
+      "value": "4,20,954.38",
+      "confidence": 0.96,
+      "page": 1,
+      "source_text": "4,20,954.38"
+    },
+    "payment_terms": {
+      "value": "Net 45",
+      "confidence": 0.9,
+      "page": 1,
+      "source_text": "Net 45"
+    }
+  },
+  "lines": [
+    {
+      "line_no": 1,
+      "sku": {
+        "value": "SKU-8801",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SKU-8801"
+      },
+      "description": {
+        "value": "MS Angle 50x50x6mm - IS 2062 Grade A",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "MS Angle 50x50x6mm - IS 2062 Grade A"
+      },
+      "quantity": {
+        "value": "500",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "500"
+      },
+      "uom": {
+        "value": "EA",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "EA"
+      },
+      "unit_price": {
+        "value": "385.00",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "385.00"
+      },
+      "line_total": {
+        "value": "1,92,500.00",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "1,92,500.00"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    },
+    {
+      "line_no": 2,
+      "sku": {
+        "value": "SKU-8802",
+        "confidence": 0.94,
+        "page": 1,
+        "source_text": "SKU-8802"
+      },
+      "description": {
+        "value": "GI Pipe 40mm Class-B (6m length)",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "GI Pipe 40mm Class-B (6m length)"
+      },
+      "quantity": {
+        "value": "553",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "553"
+      },
+      "uom": {
+        "value": "EA",
+        "confidence": 0.93,
+        "page": 1,
+        "source_text": "EA"
+      },
+      "unit_price": {
+        "value": "297.00",
+        "confidence": 0.95,
+        "page": 1,
+        "source_text": "297.00"
+      },
+      "line_total": {
+        "value": "1,64,241.00",
+        "confidence": 0.96,
+        "page": 1,
+        "source_text": "1,64,241.00"
+      },
+      "tax_rate_pct": {
+        "value": "18",
+        "confidence": 0.92,
+        "page": 1,
+        "source_text": "18"
+      }
+    }
+  ]
+}

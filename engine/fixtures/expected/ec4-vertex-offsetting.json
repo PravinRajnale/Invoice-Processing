@@ -1,0 +1,15 @@
+{
+  "decision": "MANUAL_REVIEW",
+  "risk_band": "MEDIUM",
+  "rules": {
+    "FIN-05": "PASS",
+    "LIN-03": "FAIL",
+    "LIN-04": "PASS",
+    "FIN-01": "PASS",
+    "FIN-02": "PASS"
+  },
+  "note": "THE EDGE CASE. Header total is 800 UNDER the PO \u2014 0.16% variance, comfortably inside the 2% tolerance, so FIN-05 passes correctly. But line 1 is 8% over the contracted unit price, masked by line 2 being 12.3% under. A header-only matcher approves this. A header pass must never suppress a line failure.",
+  "name": "ec4-vertex-offsetting",
+  "sha256": "1546ebe0dc3a8be2e0f37cf02e0027bf4523bce4abcea03b758e08e3ad6222e3",
+  "pdf": "pdf/ec4-vertex-offsetting.pdf"
+}
