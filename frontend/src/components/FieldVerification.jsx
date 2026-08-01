@@ -15,7 +15,7 @@ import { useMemo, useState } from 'react';
 import { Check, ScanLine, Sparkles } from 'lucide-react';
 
 import { Spinner } from './ui';
-import { session } from '../lib/api';
+import { api } from '../lib/api';
 import { fieldLabel, money } from '../lib/format';
 
 export default function FieldVerification({
@@ -45,8 +45,7 @@ export default function FieldVerification({
   if (!field) return null;
 
   const cropUrl = field.bbox
-    ? `/api/v1/invoices/${invoiceId}/page/${field.page_number || 1}.png?dpi=260&token=${
-      encodeURIComponent(session.token || '')}`
+    ? api.pageUrl(invoiceId, field.page_number || 1, 260)
     : null;
 
   async function confirm(v) {
