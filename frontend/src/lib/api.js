@@ -6,7 +6,8 @@
  * and a payment system is exactly where it isn't (PRD 18).
  */
 
-const BASE = '/api/v1';
+const BASE = import.meta.env.VITE_API_BASE || '/api/v1';
+console.log('API base URL:', BASE);
 const TOKEN_KEY = 'ipp.token';
 const USER_KEY = 'ipp.user';
 
