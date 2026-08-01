@@ -41,8 +41,7 @@ export default function DocumentViewer({
 
   useEffect(() => setLoaded(false), [page, invoiceId]);
 
-  const src = `/api/v1/invoices/${invoiceId}/page/${page}.png?dpi=170&token=${
-    encodeURIComponent(session.token || '')}`;
+    const src = api.pageUrl(invoiceId, page, 170);
 
   return (
     <div className="flex flex-col h-full">
